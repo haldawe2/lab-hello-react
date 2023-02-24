@@ -1,0 +1,68 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+header,
+.body {
+  background-color: #1f2535;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+header > img {
+  height: 4vh;
+  width: auto;
+  margin: 2vh 4vw;
+}
+
+header > img.bars {
+  margin-top: 5vh;
+}
+
+header > img.logo {
+  height: 8vh;
+}
+
+.body {
+  height: 80vh;
+  padding-left: 3vw;
+}
+
+.body > h1 {
+  font-size: 5em;
+  margin:  15vh 0 6vh 0;
+  width: 25%;
+}
+
+.body > p {
+  width: 20%;
+  font-size: 1.4em;
+}
+
+.body > p.awesome {
+  display: block;
+  color: #1f2535;
+  background-color: white;
+  font-weight: bold;
+  height: 5vh;
+  width: 13vw;
+  text-align: center;
+  border-radius: 20px;
+  margin-top: 7vh;
+}
+
+.Icons {
+ display: flex;
+ width: 80%;
+ margin: auto;
+ padding-top: 5vh;
+}
+
